@@ -14,6 +14,6 @@ in the appsettings.json file, there are three options:
 **\*\*** cores available to the client for compiling shaders (may not require that many cores, not tested)
 
 ## Usage
-Run the executable as admin, launch clients, done.
+Run the executable (RS2ClientLasso.exe) as admin, launch clients, done.
 You can either leave the application running after launching all clients, so that if a client crashes, you can instantly relaunch, otherwise, closing and relaunching the app should also work.
 **note**: by default, the config assumes you have a 24 core system and will assign cores 4-7 to shader compilation clients, and 8-24 for the game client.
